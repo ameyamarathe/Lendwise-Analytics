@@ -9,7 +9,7 @@ This project is part of me preparing for me DP600 & DP700 Fabrics certification.
 
 ## The scenario
 
-Lendwise is a fictional UK consumer credit company offering personal loans, 
+Lendwise is a simulation of a  UK consumer credit company offering personal loans, 
 debt consolidation, and credit-builder products. I am designing and building the platform that turns
 raw operational data into trustworthy, governed datasets that the business can use for credit risk 
 analysis, regulatory reporting, and operational decision-making.
@@ -104,18 +104,3 @@ A short weekly devlog is captured in `weeks/WEEK_XX.md` files.
 
 ---
 
-## Repository structure 
-
-├── PROJECT.md              <- this file
-├── README.md               <- short pitch + quickstart
-├── scripts/
-│   └── generate_lendwise_data.py
-├── data/
-│   ├── bronze/             <- raw CSVs (gitignored)
-│   ├── silver/             <- cleaned (gitignored)
-│   └── gold/               <- analytics-ready (gitignored)
-├── notebooks/              <- PySpark notebooks for Fabric
-├── dbt/                    <- dbt project (Fabric adapter)
-├── powerbi/                <- .pbip semantic model + reports
-├── docs/                   <- data dictionary, design notes
-└── weeks/                  <- weekly devlog
