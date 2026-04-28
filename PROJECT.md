@@ -3,8 +3,8 @@
 An end-to-end analytics engineering project simulating the data platform of a 
 UK consumer credit lender. Built using Microsoft Fabric, dbt, Power BI, 
 and Python, with full Git version control.
+This project is part of my preparation for DP600 & DP700 Fabric certification
 
-This project is part of me preparing for my DP600 & DP700 Fabric certification.
 ---
 
 ## The scenario
